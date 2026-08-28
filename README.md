@@ -2,6 +2,8 @@
 
 一個以繁體中文使用者為主的履歷自傳編輯器：填寫資料、上傳照片、即時預覽，最後直接列印成 PDF。
 
+線上使用：<https://aydenyee0118-ux.github.io/resume-studio-tw/>
+
 ## 主要功能
 
 - 基本資料、照片、工作經歷、教育、技能、專案、證照與語言
@@ -20,4 +22,4 @@ npm run dev
 
 ## GitHub Pages
 
-將此資料夾推送到 GitHub repository 的 `main` 分支，並在 repository Settings → Pages 將 Source 設為 GitHub Actions。之後每次推送都會自動建置與部署。
+目前網站已部署在 `gh-pages` 分支，GitHub Pages 根目錄指向 `/`。若要更新線上版本，先執行 `npm run build`，再將 `dist` 內容發布到 `gh-pages` 分支。
